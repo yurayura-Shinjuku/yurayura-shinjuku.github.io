@@ -507,3 +507,25 @@ img { max-width: 100%; height: auto; }
   .page-layout { grid-template-columns: 1fr; }
   body { background: #fff; color: #000; font-size: 12pt; }
 }
+
+/* 痛客ボックス */
+.itakyaku-box {
+  background: #fff0f5;
+  border-left: 4px solid #e05c8a;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 18px 0 24px;
+}
+.itakyaku-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #c0385f;
+  margin: 0 0 6px;
+  letter-spacing: 0.05em;
+}
+.itakyaku-body {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0;
+  line-height: 1.7;
+}
