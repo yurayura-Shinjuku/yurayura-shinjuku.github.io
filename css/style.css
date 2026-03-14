@@ -564,3 +564,48 @@ img { max-width: 100%; height: auto; }
   margin: 0;
   line-height: 1.7;
 }
+
+/* 医療注意ボックス */
+.medical-note-box {
+  background: #f0f7ff;
+  border-left: 4px solid #5b9bd5;
+  border-radius: 0 6px 6px 0;
+  padding: 14px 18px;
+  margin: 20px 0;
+}
+.medical-note-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #2c5f8a;
+  margin: 0 0 6px;
+}
+.medical-note-body {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.7;
+  margin: 0 0 8px;
+}
+.medical-note-link {
+  font-size: 0.82rem;
+  color: #5b9bd5;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* マシュマロ質問箱 */
+.marshmallow-section { text-align: center; padding: 20px 0; }
+.marshmallow-btn-wrap { margin: 24px 0 16px; }
+.marshmallow-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #f78da7, #e05c8a);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.05rem;
+  padding: 16px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(224,92,138,0.35);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.marshmallow-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(224,92,138,0.45); opacity: 1; }
+.marshmallow-note { font-size: 0.82rem; color: #888; line-height: 1.8; margin-top: 8px; }
